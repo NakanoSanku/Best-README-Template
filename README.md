@@ -1,281 +1,181 @@
-<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 <a id="readme-top"></a>
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
--->
 
-
-
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![Unlicense License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-
-
-<!-- PROJECT LOGO -->
-<br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/NakanoSanku/Best-README-Template">
+    <img src="images/logo.png" alt="Best README Template logo" width="96" height="96">
   </a>
 
-  <h3 align="center">Best-README-Template</h3>
+  <h1>Best README Template</h1>
 
-  <p align="center">
-    An awesome README template to jumpstart your projects!
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
-    &middot;
-    <a href="https://github.com/othneildrew/Best-README-Template/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
-    &middot;
-    <a href="https://github.com/othneildrew/Best-README-Template/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
+  <p>
+    <strong>A clean, modern, and reusable README starter for projects that deserve a better first impression.</strong>
+  </p>
+
+  <p>
+    Thoughtful hierarchy · Practical sections · Easy customization · GitHub-native styling
+  </p>
+
+  <p>
+    <a href="BLANK_README.md"><strong>Use the template →</strong></a>
+    &nbsp;·&nbsp;
+    <a href="#preview">Preview</a>
+    &nbsp;·&nbsp;
+    <a href="https://github.com/NakanoSanku/Best-README-Template/issues/new">Report an issue</a>
   </p>
 </div>
 
+<div align="center">
 
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stars][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![License][license-shield]][license-url]
 
-<!-- TABLE OF CONTENTS -->
+</div>
+
+---
+
+> [!TIP]
+> Start with [`BLANK_README.md`](BLANK_README.md), replace the placeholder values, remove the sections you do not need, and make the project yours.
+
+## ✨ Why this template
+
+A README should help people understand a project in seconds, not make them hunt for the important parts. This template focuses on **visual hierarchy, scanability, and maintainability** without relying on heavy custom HTML or fragile styling tricks.
+
+| Clear first impression | Practical structure | Easy to customize |
+| --- | --- | --- |
+| A centered hero, concise tagline, and focused badges keep the first screen clean. | Common open-source sections are already organized in a sensible reading order. | Reference-style links and predictable placeholders make global replacement simple. |
+
+### Design goals
+
+- **Readable before decorative** — visual polish should never get in the way of project information.
+- **GitHub-native** — built from Markdown, lightweight HTML, callouts, tables, and Shields.io badges.
+- **Copy-friendly** — every section can be kept, removed, or rearranged independently.
+- **Responsive by default** — no custom CSS, JavaScript, or layout hacks required.
+- **Useful for real repositories** — setup, usage, roadmap, contribution, license, and contact sections are included.
+
+## 🚀 Quick start
+
+1. Open [`BLANK_README.md`](BLANK_README.md).
+2. Copy it into your project as `README.md`.
+3. Search and replace the placeholders below.
+4. Remove unused badges, technologies, and sections.
+5. Replace the demo screenshot and logo with your own assets.
+
+### Common placeholders
+
+| Placeholder | Replace with |
+| --- | --- |
+| `github_username` | Your GitHub username or organization |
+| `repo_name` | Repository name |
+| `project_title` | Project display name |
+| `project_description` | One-sentence project value proposition |
+| `project_license` | License name, such as MIT |
+| `twitter_handle` | X / Twitter username |
+| `linkedin_username` | LinkedIn profile handle |
+| `email` | Contact email address |
+
+> [!NOTE]
+> You do not need to keep every section. A shorter README with strong information hierarchy is usually better than a long README filled with placeholders.
+
+## 🧱 Template anatomy
+
+The blank template includes the sections most projects need:
+
+- **Hero** — logo, title, tagline, repository badges, and primary links.
+- **About** — the problem, the project, and its most important features.
+- **Built With** — a compact, visual technology stack.
+- **Getting Started** — prerequisites, installation, and configuration.
+- **Usage** — screenshots, examples, and documentation links.
+- **Roadmap** — completed work and upcoming milestones.
+- **Contributing** — a straightforward contribution flow.
+- **License** — visible licensing information.
+- **Contact** — maintainer and project links.
+- **Acknowledgments** — credits and useful resources.
+
+<a id="preview"></a>
+## 🖼️ Preview
+
+<div align="center">
+  <a href="BLANK_README.md">
+    <img src="images/screenshot.png" alt="Best README Template preview" width="100%">
+  </a>
+  <p><sub>Replace <code>images/screenshot.png</code> with a screenshot, demo GIF, architecture diagram, or product preview that explains your project quickly.</sub></p>
+</div>
+
+## 🎨 Customization ideas
+
+Want to make the template feel more personal without making it noisy?
+
+- Keep badge styles consistent instead of mixing multiple badge themes.
+- Lead with one strong screenshot rather than a gallery of small images.
+- Use one accent emoji per major section, not on every line.
+- Prefer short paragraphs and bullet points over dense walls of text.
+- Move secondary information into `<details>` blocks when it is useful but not essential.
+- Add CI, package, release, coverage, or documentation badges only when they communicate meaningful project status.
+
 <details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
+<summary><strong>Optional extras you can add</strong></summary>
+<br>
+
+- Architecture diagram
+- API reference link
+- Deployment instructions
+- Security policy
+- Changelog / release notes
+- FAQ or troubleshooting section
+- Community / Discord links
+- Sponsor information
+
 </details>
 
+## 🤝 Contributing
 
+Improvements are welcome. If you have an idea that makes the template clearer, cleaner, or more useful:
 
-<!-- ABOUT THE PROJECT -->
-## About The Project
+1. Fork the repository.
+2. Create a branch: `git checkout -b feature/readme-improvement`.
+3. Commit your changes: `git commit -m "Improve README template"`.
+4. Push the branch: `git push origin feature/readme-improvement`.
+5. Open a pull request.
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+You can also [open an issue](https://github.com/NakanoSanku/Best-README-Template/issues/new) with a suggestion.
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+### Contributors
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people who have contributed to expanding this template!
-
-Use the `BLANK_README.md` to get started.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-### Built With
-
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- GETTING STARTED -->
-## Getting Started
-
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
-### Installation
-
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/github_username/repo_name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-5. Change git remote url to avoid accidental pushes to base project
-   ```sh
-   git remote set-url origin github_username/repo_name
-   git remote -v # confirm the changes
-   ```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
-
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-### Top contributors:
-
-<a href="https://github.com/othneildrew/Best-README-Template/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=othneildrew/Best-README-Template" alt="contrib.rocks image" />
+<a href="https://github.com/NakanoSanku/Best-README-Template/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=NakanoSanku/Best-README-Template" alt="Project contributors">
 </a>
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+## 📄 License
 
+Distributed under the Unlicense. See [`LICENSE.txt`](LICENSE.txt) for details.
 
+## 🙏 Credits
 
-<!-- LICENSE -->
-## License
+This repository is based on the excellent [Best-README-Template](https://github.com/othneildrew/Best-README-Template) by [othneildrew](https://github.com/othneildrew), with additional visual and structural refinements for a cleaner modern presentation.
 
-Distributed under the Unlicense License. See `LICENSE.txt` for more information.
+Useful supporting tools include:
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+- [Shields.io](https://shields.io) — repository badges
+- [contrib.rocks](https://contrib.rocks) — contributor avatars
+- [Choose a License](https://choosealicense.com) — license guidance
+- [GitHub Markdown](https://docs.github.com/en/get-started/writing-on-github) — formatting reference
 
-
-
-<!-- CONTACT -->
-## Contact
-
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
-
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
-
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
-* [Img Shields](https://shields.io)
-* [GitHub Pages](https://pages.github.com)
-* [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
+<div align="center">
+  <br>
+  <a href="#readme-top"><strong>↑ Back to top</strong></a>
+</div>
 
 <!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
-[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
-[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
-[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
-[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
-[product-screenshot]: images/screenshot.png
-[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
-[Next-url]: https://nextjs.org/
-[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
-[React-url]: https://reactjs.org/
-[Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
-[Vue-url]: https://vuejs.org/
-[Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
-[Angular-url]: https://angular.io/
-[Svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
-[Svelte-url]: https://svelte.dev/
-[Laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
-[Laravel-url]: https://laravel.com
-[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
-[Bootstrap-url]: https://getbootstrap.com
-[JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
-[JQuery-url]: https://jquery.com 
+[contributors-shield]: https://img.shields.io/github/contributors/NakanoSanku/Best-README-Template?style=flat-square
+[contributors-url]: https://github.com/NakanoSanku/Best-README-Template/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/NakanoSanku/Best-README-Template?style=flat-square
+[forks-url]: https://github.com/NakanoSanku/Best-README-Template/network/members
+[stars-shield]: https://img.shields.io/github/stars/NakanoSanku/Best-README-Template?style=flat-square
+[stars-url]: https://github.com/NakanoSanku/Best-README-Template/stargazers
+[issues-shield]: https://img.shields.io/github/issues/NakanoSanku/Best-README-Template?style=flat-square
+[issues-url]: https://github.com/NakanoSanku/Best-README-Template/issues
+[license-shield]: https://img.shields.io/github/license/NakanoSanku/Best-README-Template?style=flat-square
+[license-url]: https://github.com/NakanoSanku/Best-README-Template/blob/main/LICENSE.txt
