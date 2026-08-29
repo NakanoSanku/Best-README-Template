@@ -47,10 +47,12 @@ If repository evidence conflicts with the current README, prefer repository evid
 
 ### New README
 
-Build the document from verified repository information. Use this repository's templates as a starting point when appropriate:
+Build the document from verified repository information. Use the canonical templates hosted on GitHub as a starting point when appropriate:
 
-- English: [`../../BLANK_README.md`](../../BLANK_README.md)
-- 简体中文: [`../../BLANK_README.zh-CN.md`](../../BLANK_README.zh-CN.md)
+- English: [`BLANK_README.md`](https://github.com/NakanoSanku/Best-README-Template/blob/main/BLANK_README.md)
+- 简体中文: [`BLANK_README.zh-CN.md`](https://github.com/NakanoSanku/Best-README-Template/blob/main/BLANK_README.zh-CN.md)
+
+These template URLs are intentionally absolute so this skill can be installed, copied, or distributed independently without requiring the rest of the template repository to be installed locally.
 
 ### README improvement
 
