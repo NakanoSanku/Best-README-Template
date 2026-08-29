@@ -8,7 +8,7 @@
   <h1>Best README Template</h1>
 
   <p>
-    <strong>A clean, modern, and reusable README starter for projects that deserve a better first impression.</strong>
+    <strong>A clean, modern, bilingual README starter for projects that deserve a better first impression.</strong>
   </p>
 
   <p>
@@ -16,11 +16,11 @@
   </p>
 
   <p>
-    <a href="BLANK_README.md"><strong>Use the template →</strong></a>
+    <a href="BLANK_README.md"><strong>English Template →</strong></a>
     &nbsp;·&nbsp;
-    <a href="#preview">Preview</a>
+    <a href="BLANK_README.zh-CN.md"><strong>简体中文模板</strong></a>
     &nbsp;·&nbsp;
-    <a href="https://github.com/NakanoSanku/Best-README-Template/issues/new">Report an issue</a>
+    <a href="skills/readme-writing/SKILL.md">README Writing Skill</a>
   </p>
 </div>
 
@@ -37,7 +37,16 @@
 ---
 
 > [!TIP]
-> Start with [`BLANK_README.md`](BLANK_README.md), replace the placeholder values, remove the sections you do not need, and make the project yours.
+> Choose [`BLANK_README.md`](BLANK_README.md) for English or [`BLANK_README.zh-CN.md`](BLANK_README.zh-CN.md) for Simplified Chinese. Both templates link to each other from the top of the document.
+
+## 🌐 Template languages
+
+| Language | Template | Best for |
+| --- | --- | --- |
+| English | [`BLANK_README.md`](BLANK_README.md) | International projects and English-first documentation |
+| 简体中文 | [`BLANK_README.zh-CN.md`](BLANK_README.zh-CN.md) | 中文项目、中文社区和本地化文档 |
+
+The two versions share the same structure, placeholders, code examples, badges, and major sections so they can be maintained together without drifting apart.
 
 ## ✨ Why this template
 
@@ -52,16 +61,20 @@ A README should help people understand a project in seconds, not make them hunt 
 - **Readable before decorative** — visual polish should never get in the way of project information.
 - **GitHub-native** — built from Markdown, lightweight HTML, callouts, tables, and Shields.io badges.
 - **Copy-friendly** — every section can be kept, removed, or rearranged independently.
+- **Bilingual-ready** — English and Simplified Chinese templates use matching structure and visible language navigation.
 - **Responsive by default** — no custom CSS, JavaScript, or layout hacks required.
 - **Useful for real repositories** — setup, usage, roadmap, contribution, license, and contact sections are included.
 
 ## 🚀 Quick start
 
-1. Open [`BLANK_README.md`](BLANK_README.md).
+1. Choose a template:
+   - English: [`BLANK_README.md`](BLANK_README.md)
+   - 简体中文: [`BLANK_README.zh-CN.md`](BLANK_README.zh-CN.md)
 2. Copy it into your project as `README.md`.
 3. Search and replace the placeholders below.
 4. Remove unused badges, technologies, and sections.
 5. Replace the demo screenshot and logo with your own assets.
+6. If you are using an AI coding/documentation agent, give it [`skills/readme-writing/SKILL.md`](skills/readme-writing/SKILL.md) as the README authoring rules.
 
 ### Common placeholders
 
@@ -79,11 +92,29 @@ A README should help people understand a project in seconds, not make them hunt 
 > [!NOTE]
 > You do not need to keep every section. A shorter README with strong information hierarchy is usually better than a long README filled with placeholders.
 
+## 🤖 README Writing Skill
+
+[`skills/readme-writing/SKILL.md`](skills/readme-writing/SKILL.md) is a reusable instruction set for AI-assisted README work. It is designed for creating new READMEs, improving existing ones, localizing documentation, and reviewing README quality.
+
+The skill instructs an agent to:
+
+- inspect the repository before writing instead of inventing project facts;
+- verify installation commands, scripts, configuration, links, and license information;
+- choose the right information architecture for apps, libraries, CLIs, and templates;
+- keep badges and visual elements useful rather than decorative;
+- create realistic, copy-pasteable usage examples;
+- preserve upstream attribution and licensing;
+- keep bilingual README versions synchronized;
+- validate links, placeholders, images, branch names, and final readability;
+- use a dedicated branch and pull request when modifying a repository unless direct changes are explicitly requested.
+
+This makes the repository useful both as a **copyable template** and as a **README authoring standard for coding agents**.
+
 ## 🧱 Template anatomy
 
-The blank template includes the sections most projects need:
+The blank templates include the sections most projects need:
 
-- **Hero** — logo, title, tagline, repository badges, and primary links.
+- **Hero** — logo, title, tagline, repository badges, language switcher, and primary links.
 - **About** — the problem, the project, and its most important features.
 - **Built With** — a compact, visual technology stack.
 - **Getting Started** — prerequisites, installation, and configuration.
@@ -114,6 +145,7 @@ Want to make the template feel more personal without making it noisy?
 - Prefer short paragraphs and bullet points over dense walls of text.
 - Move secondary information into `<details>` blocks when it is useful but not essential.
 - Add CI, package, release, coverage, or documentation badges only when they communicate meaningful project status.
+- For bilingual projects, keep commands and code synchronized while translating explanatory text naturally.
 
 <details>
 <summary><strong>Optional extras you can add</strong></summary>
@@ -132,7 +164,7 @@ Want to make the template feel more personal without making it noisy?
 
 ## 🤝 Contributing
 
-Improvements are welcome. If you have an idea that makes the template clearer, cleaner, or more useful:
+Improvements are welcome. If you have an idea that makes the template clearer, cleaner, more useful, or better localized:
 
 1. Fork the repository.
 2. Create a branch: `git checkout -b feature/readme-improvement`.
@@ -154,7 +186,7 @@ Distributed under the Unlicense. See [`LICENSE.txt`](LICENSE.txt) for details.
 
 ## 🙏 Credits
 
-This repository is based on the excellent [Best-README-Template](https://github.com/othneildrew/Best-README-Template) by [othneildrew](https://github.com/othneildrew), with additional visual and structural refinements for a cleaner modern presentation.
+This repository is based on the excellent [Best-README-Template](https://github.com/othneildrew/Best-README-Template) by [othneildrew](https://github.com/othneildrew), with additional visual, structural, localization, and agent-authoring refinements for a cleaner modern presentation.
 
 Useful supporting tools include:
 
