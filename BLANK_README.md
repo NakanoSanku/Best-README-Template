@@ -6,11 +6,6 @@
   and keep the content focused on what helps users understand your project.
 -->
 
-<p align="center">
-  <a href="BLANK_README.md"><strong>English</strong></a> ·
-  <a href="BLANK_README.zh-CN.md">简体中文</a>
-</p>
-
 <div align="center">
   <a href="https://github.com/github_username/repo_name">
     <img src="images/logo.png" alt="project_title logo" width="104" height="104">
@@ -32,6 +27,10 @@
     <a href="https://github.com/github_username/repo_name">Documentation</a>
     &nbsp;·&nbsp;
     <a href="https://github.com/github_username/repo_name/issues">Issues</a>
+    &nbsp;·&nbsp;
+    <a href="BLANK_README.md"><strong>English</strong></a>
+    &nbsp;·&nbsp;
+    <a href="BLANK_README.zh-CN.md">简体中文</a>
   </p>
 </div>
 
