@@ -5,11 +5,6 @@
   请替换占位符、删除不需要的章节，并始终围绕“帮助用户快速理解和使用项目”来组织内容。
 -->
 
-<p align="center">
-  <a href="BLANK_README.md">English</a> ·
-  <a href="BLANK_README.zh-CN.md"><strong>简体中文</strong></a>
-</p>
-
 <div align="center">
   <a href="https://github.com/github_username/repo_name">
     <img src="images/logo.png" alt="project_title logo" width="104" height="104">
@@ -31,6 +26,10 @@
     <a href="https://github.com/github_username/repo_name">文档</a>
     &nbsp;·&nbsp;
     <a href="https://github.com/github_username/repo_name/issues">Issues</a>
+    &nbsp;·&nbsp;
+    <a href="BLANK_README.md">English</a>
+    &nbsp;·&nbsp;
+    <a href="BLANK_README.zh-CN.md"><strong>简体中文</strong></a>
   </p>
 </div>
 
